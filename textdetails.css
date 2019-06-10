@@ -1,0 +1,239 @@
+
+/* formating for body */
+body 
+{
+	font-family: Nunito, "Courier New", "Open Sans", serif;
+	background-color: #543B23; /* brown background */
+    color: #DFDFD4;
+	margin: 0%;
+}
+
+/* formating for paragraphs */
+p
+{
+	text-align: justify;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+/* formating for hheadings */
+h1
+{
+	font-size: 70px;
+	text-align: center;
+}
+
+/* formating for subheadings */
+h2
+{
+	font-size: 70px;
+	text-align: left-justify;
+	padding-left: 150px;
+	padding-top: 20px;
+	margin: 0%;
+	background-color: #DFDFD4;
+}
+
+/* removes underline from link */
+a
+{
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+	color: #A5D74D;
+}
+
+/* visited link */
+a:visited {
+	color: #A5D74D;
+}
+
+/* mouse over link */
+a:hover {
+	color: #DFDFD4;
+}
+
+/* displays menu on top of webpage */
+ .navbar {
+	overflow: hidden;
+	background-color: #846954;
+	position: fixed; /* keeps webpage stationary even when scrolling */
+	top: 0;
+	width: 100%;
+}
+
+/* formating for a link/button on the menu */
+.navbar a {
+	float: right;
+	display: block;
+	color: #543B23;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* makes button change colour when the mouse hovers over it */
+.navbar a:hover {
+  background: #DFDFD4;
+  color: #5a8514;
+}
+
+/* formating for the banner image */
+#mushroomhomeimage
+{
+	width: 100%;
+	margin: 0%;
+	padding-top: 40px;
+
+}
+
+/* formating for the title font size */
+#mushrooms
+{
+	font-size: 140px;
+}
+
+/* allows for the text on the title to be centered */
+.imagedetails {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* positioning of the title */
+.hometitle 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* creates a ghost-button(a button with a transparent fill) */
+.ghost-button
+{
+	display: inline-block;
+	width: 400px;
+	padding: 8px;
+	color: #DFDFD4;
+	border: 1px solid #DFDFD4;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	font-size: 32px;
+	margin-top: 10px;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out; /* fade transition */
+}
+
+/* fills in the ghost button when the mouse hovers over it */
+.ghost-button:hover,
+.ghost-button:active 
+{
+	background-color: #DFDFD4;
+	color: #5a8514;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in; /* fade transition */
+}
+
+/* displays a block for the text and image to be set on */
+.subject
+{
+	height: 80%;
+	width: 100% - 30px;
+	background-color: #846954;
+	color: #DFDFD4;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin: 0%;
+	
+}	
+
+/* title of the text content */
+.subject_title
+{
+	padding-top: 20px;	
+	font-size: 55px;
+	text-align: left-justify;
+}
+
+/* sets surface for captions */
+.container {
+	float: right;
+	position: relative;
+	margin: 1%;
+	margin-left: 2%;
+}
+
+/* captions for the image */
+.container .content
+{
+	position: absolute; /* Position the background text */
+	bottom: 5px; /* set image to the bottom */
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; 
+	width: 470px; /* width of the image */
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+
+/* creates a clickable button for the the topic */
+.topic a 
+{
+	float: none;
+	display: block;
+	color: #DFDFD4;
+	text-align: center;
+	padding: 1%;
+	text-decoration: none;
+	font-size: 65px;
+	background-color: #846954;
+	margin-bottom: 70px;
+	margin-left: 77%;
+	width: 10%;
+	height: 10%;
+}
+
+/* makes button change colour when the mouse hovers over it */
+.topic a:hover 
+{
+	background: #DFDFD4;
+	color: #A5D74D;
+}
+
+/* element for a description of the topic */
+.topic p
+{
+	font-size: 20px;
+	color: #DFDFD4;
+	background-color: #846954;
+	margin: 0%;
+	padding-left: 150px;
+	height: 70px;
+	float: left;
+	width: 64%;
+	padding-right: 1%;
+	padding-bottom: 35px;
+	padding-top: 13px;
+}
+
+/*topic spacing*/
+.topic
+{
+	height: 20%;
+	padding-bottom: 15px;
+}
+
+/* title of the the topic */
+.topic h2
+{
+	font-size: 40px;
+	color: #DFDFD4;
+	width: 77%;
+	background-color: #846954;
+	margin: 0%;
+}
+

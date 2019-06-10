@@ -1,0 +1,287 @@
+
+/* body element */
+body 
+{
+	font-family: Nunito, "Courier New", "Open Sans", serif;
+	background-color: #543B23;
+    color: #DFDFD4;
+	margin: 0%;
+}
+
+/* paragraph element */
+p
+{
+	text-align: justify;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+/* link */
+a
+{
+	text-decoration: none; /* removes underline feature */
+}
+
+/* unvisited link */
+a:link {
+	color: #A5D74D;
+}
+
+/* visited link */
+a:visited {
+	color: #A5D74D;
+}
+
+/* mouse over link */
+a:hover {
+	color: #DFDFD4;
+}
+
+/* id for the background image in the about page */
+#mushroombackground-about
+{
+	/* sets it to fill up the entire page and not move */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+/* id for the background image in the dangers page */
+#mushroombackground-dangers
+{
+	/* sets it to fill up the entire page and not move */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+/* positions and formats the style of the banner text*/
+.title-text 
+{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 50%;
+	left: 0%;
+	padding-top: 20%;
+	padding-bottom: 0%;
+	font-size: 140px;
+}
+
+/* Draws the menu bar */
+.navbar {
+	overflow: hidden;
+	background-color: #846954;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Creates clickable menu button */
+.navbar a {
+	float: right;
+	display: block;
+	color: #543B23;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* changes menu buttons when mouse hovers over it */
+.navbar a:hover {
+  background: #DFDFD4;
+  color: #5a8514;
+}
+
+/* create a button without a fill (just the content and the border) */
+.ghost-button
+{
+	display: inline-block;
+	width: 400px;
+	padding: 8px;
+	color: #DFDFD4;
+	border: 1px solid #DFDFD4;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 0%;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out; /* adds a fade effect when hovered */
+}
+
+/* changes colour when mouse hovers over the button */
+.ghost-button:hover,
+.ghost-button:active 
+{
+	background-color: #DFDFD4;
+	color: #5a8514;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in; /* fade transition */
+}
+
+/* formating and positioning of a text content */
+.subject
+{
+	height: 30%;
+	width: 100%-150;
+	position: relative;
+	background-color: #846954;
+	margin-bottom: 5%;
+	padding-left: 150px; /* extra space at the side for aesthetic purposes */
+	margin-top: 7%;
+	padding-right: 150px;
+	padding-bottom: 40px;
+	font-size: 25;
+}
+
+/* formating and positioning of an image */
+.subject-image
+{
+	height: 30%;
+	width: 70%;
+	position: relative;
+	margin-bottom: 4%;
+	padding-left: 150px;
+	margin-top: 4%;
+	right: 17%;
+	/* centers the image */
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 25;
+}
+
+/* text details for a heading in a subject */
+.subject h1
+{
+	font-size: 70px;
+	padding-top: 15px;
+}
+
+/* text details for a subheading in a subject */
+.subject h2
+{
+	font-size: 25px;
+	padding-top: 25px;
+	text-decoration: underline;
+}
+
+/* text details for an unordered list in a subject */
+.subject ul
+{
+	font-size: 25px;
+}
+
+/* text details for a description in a subject */
+.subject .description
+{
+	font-size: 25px;
+}
+
+
+/* formating for an image with a caption */
+.container, .container3, .container4
+{
+	float: right;
+	position: relative;
+	margin: 0%;
+	margin-left: 2%;
+}
+
+/* formating for an image with a caption */
+.container2 {
+	float: none;
+	top: 50%;
+	left: 25%;
+	position: relative;
+	margin: 0%;
+	margin-left: 2%;
+}
+
+.container .content 
+{
+	position: absolute; 
+	bottom: 5px; 
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; 
+	width: 429px; /* widths vary depending on image size */
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+
+.container2 .content
+{
+	position: absolute; 
+	bottom: 5px; 
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; 
+	width: 670px; /* widths vary depending on image size */
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+
+.container3 .content 
+{
+	position: absolute; 
+	bottom: 5px; 
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; 
+	width: 280px; /* widths vary depending on image size */
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.container4 .content 
+{
+	position: absolute; 
+	bottom: 5px; 
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; 
+	width: 380px; /* widths vary depending on image size */
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.content
+{
+	font-size:20px;
+}
+
+/*formating for the group section of the about page*/
+.group
+{
+	background-color: #846954;
+	height: 25%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-bottom: 1%;
+}
+
+/* resizes the font of an unordered list */
+.recipe ul
+{
+	font-size: 16px;
+}
+
+/* resizes the font of an ordered list */
+.recipe ol
+{
+	font-size: 20px;
+}
+
+/*spacing for references page*/
+.references
+{
+	margin-left: 15%;
+	margin-right: 15;
+	padding-bottom: 3%;
+	width: 80%;
+}
