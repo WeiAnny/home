@@ -140,14 +140,13 @@ a:hover {
 /* displays a block for the text and image to be set on */
 .subject
 {
-	height: 80%;
+	height: 85%;
 	width: 100% - 30px;
 	background-color: #846954;
 	color: #DFDFD4;
 	padding-left: 150px;
 	padding-right: 150px;
 	margin: 0%;
-	padding-bottom: 50px;
 	
 }	
 
